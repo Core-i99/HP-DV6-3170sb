@@ -10,3 +10,4 @@ These instructions are used for creating the OC config and EFI
 | [AppleALC](https://github.com/acidanthera/AppleALC) | Native macOS HD audio for not officially supported codecs | [Acidanthera](https://github.com/acidanthera)|
 | [RTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | Driver for RTL8111/8168 family | [Mieze](https://github.com/Mieze) |
 | [VoodooPS2Controller](https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller) | PS2 keyboard, mouse and trackad driver. Used the Rehabman version for better trackpad buttons functioning | [RehabMan](https://github.com/RehabMan/)
+| FakePCIID_AR9285_as_AR9280 | Needed to fake the Atheros TODO card | [TheHackGuy](https://github.com/TheHackGuy) |
