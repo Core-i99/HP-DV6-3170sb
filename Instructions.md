@@ -17,3 +17,4 @@ These instructions are used for creating the OC config and EFI
 | ---- | ------- |
 | [SSDT-EC](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-EC.dsl) | Emebbed Controller |
 | [SSDT-HPET](https://github.com/TheHackGuy/HP-DV6-3170sb/blob/main/SSDTTime.md) | Create with SSDTTime |
+| [Brightness](https://www.insanelymac.com/forum/topic/287133-guide-backlight-brightness-for-intel-80860046-1st-gen-hd-gma-5700mhd/) | DSDT patch for the backlight. I didn't share my ssdt for this because the patch can be very different even for the same model |
