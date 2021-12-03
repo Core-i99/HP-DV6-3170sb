@@ -52,8 +52,8 @@ First do an OC-Clean-Snapshot with Propertree
 ##### Quirks
 | Quirk | Enabled | Comment |
 | ------ | ------ | ------ |
-| AppleCpuPmCfgLock | False | |
-| DisableIoMapper | False | |
+| AppleCpuPmCfgLock | False | Needed to disable CfgLock, bios doens't have CfgLock Enabled |
+| DisableIoMapper | False | Needed to disable VT-d, bios doens't have VT-d Enabled|
 | LapicKernelPanic | True | Disables kernel panic on LAPIC interrupts. Mainly needed for HP machines |
 | PanicNoKextDump | True | Prevent kernel from printing kext dump in the panic log |
 | PowerTimeoutKernelPanic | True | Fixes kernel panic on setPowerState timeout |
