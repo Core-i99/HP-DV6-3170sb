@@ -9,10 +9,12 @@
 
 
 ## Specifications
-| CPU | High Sierra |
-| RAM | High Sierra |
-| Storage | High Sierra |
-| Audio | High Sierra |
-| Trackpad | High Sierra |
-| Keyboard | High Sierra |
-| USB | High Sierra |
+| Specification | Detail             |
+| ------------- | ------------------ |
+| CPU           | Intel Core I5 460M |
+| RAM           | Todo               |
+| Storage       | Kingston A400 480GB|
+| Audio         | IDT |
+| Trackpad | PS2 TODO |
+| Keyboard | PS2 TODO |
+| USB | TODO |
