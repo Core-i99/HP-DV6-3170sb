@@ -1,5 +1,7 @@
 ## info
-| Model  | HP DV6-3170sb |
+|Specifications |	Detail |
+--------------------------
+| Model | HP DV6-3170sb |
 | macOS | High Sierra |
 | Method | Vanilla |
 | OpenCore | 0.6.2 |
