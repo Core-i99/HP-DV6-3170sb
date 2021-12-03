@@ -5,9 +5,11 @@
 #### macOS
 -   Run the SSDTTime.command
 -   Give permissions for for SSDTTime to run in system preferences
+
 \n
 #### Windows
 -   Run SSDTTime.bat
+
 \n
 
 ## Dumping DSDT
