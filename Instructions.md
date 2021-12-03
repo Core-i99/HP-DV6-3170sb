@@ -46,9 +46,9 @@ First do an OC-Clean-Snapshot with Propertree
 
 ### Kernel
 #### Emulate
-| Key | Value |
-| --- |  ----- |
-| DummyPowerManagement | True |
+| Key | Value | Comment |
+| --- |  ----- | ------ |
+| DummyPowerManagement | True | Fixes KP on Power Management |
 #### Quirks
 | Quirk | Enabled | Comment |
 | ------ | ------ | ------ |
@@ -75,11 +75,17 @@ First do an OC-Clean-Snapshot with Propertree
 | AllowSetDefault | Boolean | True | Allows setting a default boot option in the OC picker |
 | AllowToggleSip | Boolean | True | Allows enabling and disabling SIP in the OC picker |
 | BlacklistAppleUpdate | Boolean | True | Ignore boot options trying to update Apple peripheral firmware | 
+| ExposeSensitiveData | Number | 3 | Helps with Emulated NVRAM |
 | ScanPolicy | Number | 0 | Allows and booting all sources | 
 | SecureBootModel | String | Default | [Dortania Apple Secure Boot](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html) | 
 | Vault | String | Optional | Don't require the OC vaulting mechanism |
 
 ### NVRAM
+| Key |  Value | Comment |
+| --- |  ----- | ------- | 
+| LegacyEnable | True | Enables loading a NVRAM variable file from EFI volume |
+| LegacyOverwrite | True | Permits overwriting firmware variables from nvram.plist |
+
 #### Add 
 ##### 7C436110-AB2A-4BBB-A880-FE41995C9F82
 | boot-args | Comment |
@@ -92,6 +98,7 @@ First do an OC-Clean-Snapshot with Propertree
 | Key | Type | Value | Comment |
 | --- | ---- | ----- | ------- | 
 | prev-lang:kbd | String | en-US:0 | Change the keyboard layout. [Other values](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
+
 
 ### PlatformInfo
 #### Generic 
