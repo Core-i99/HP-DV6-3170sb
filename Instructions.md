@@ -2,10 +2,10 @@
 
 ## SSDTTime
 - Download [SSDTTime](https://github.com/corpnewt/SSDTTime)
-- macOS
+#### macOS
 -   Run the SSDTTime.command
 -   Give permissions for for SSDTTime to run in system preferences
-- Windows
+#### Windows
 -   Run SSDTTime.bat
 
 
