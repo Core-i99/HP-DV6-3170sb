@@ -12,6 +12,7 @@ These instructions are used for creating the OC config and EFI
 | [RTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) | Driver for RTL8111/8168 family | [Mieze](https://github.com/Mieze) |
 | [VoodooPS2Controller](https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller) | PS2 keyboard, mouse and trackad driver. Used the Rehabman version for better trackpad buttons functioning | [RehabMan](https://github.com/RehabMan/)
 | [FakeAR5B95](https://github.com/TheHackGuy/FakeAR5B95) | Needed to fake the Atheros AR5B95 card | [TheHackGuy](https://github.com/TheHackGuy) |
+| USBMap | Specific for every pc, follow the [guide](https://easyhackintoshing.com/index.php/home-page/topic/usb-mapping-with-usbtoolbox-usb-mapping-on-windows-before-macos-install/) for this | [TheHackGuy](https://github.com/TheHackGuy) |
 
 ### ACPI
 | ACPI | Comment |
