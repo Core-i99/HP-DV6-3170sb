@@ -17,3 +17,7 @@
 | Audio         | IDT92HD81B1X5 / IDT92HD81B1X (PCI 111D:7605) |
 | Trackpad | PS2 |
 | Keyboard | PS2 |
+
+# Instructions
+- First use the [SSDTTime Instructions](https://github.com/TheHackGuy/HP-DV6-3170sb/blob/main/SSDTTime.md)
+- Then use the [main instructions](https://github.com/TheHackGuy/HP-DV6-3170sb/blob/main/Instructions.md) for creating the EFI and config
