@@ -1,7 +1,7 @@
 # Instructions
 
 ## SSDTTime
-- Download [SSDTTime] (https://github.com/corpnewt/SSDTTime)
+- Download [SSDTTime](https://github.com/corpnewt/SSDTTime)
 - macOS
 -   Run the SSDTTime.command
 -   Give permissions for for SSDTTime to run in system preferences
@@ -10,7 +10,7 @@
 
 
 ## Dumping DSDT
-I'm going to usb SSDTTime on WinPE for this. [There are differnet ways for dumping the DSDT] (https://dortania.github.io/Getting-Started-With-ACPI/Manual/dump.html)
+I'm going to usb SSDTTime on WinPE for this. [There are differnet ways for dumping the DSDT](https://dortania.github.io/Getting-Started-With-ACPI/Manual/dump.html)
 - Run the SSDTTime
 
 ## FixHPET
