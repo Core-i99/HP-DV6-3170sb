@@ -1,5 +1,3 @@
-# Instructions
-
 ## SSDTTime
 - Download [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
