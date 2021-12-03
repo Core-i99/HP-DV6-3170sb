@@ -16,7 +16,7 @@ I'm going to usb SSDTTime on WinPE for this. [There are differnet ways for dumpi
 - Pick option 8 to dump the DSDT
 
 ## FixHPET
-FixHPET will help yout to fix audio and the left USB ports for this device.
+FixHPET will help you to fix audio and the left USB ports for this device.
 
 - Run SSDTTime
 - Pick option 1 for FixPHET
