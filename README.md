@@ -3,7 +3,7 @@
 | Info          | Detail        |
 | ------------- | ------------- |
 | Model         | HP DV6-3170sb |
-| macOS         | High Sierra   |
+| macOS         | 10.13 - High Sierra   |
 | Method        | Vanilla       |
 | OpenCore      | 0.7.5         |
 
