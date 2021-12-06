@@ -123,7 +123,6 @@ Certain values needs to be genearted. I recommend ding this with [GenSMBIOS](htt
 #### Quirks 
 | Key | Value | Comment |
 | --- | ----- | ------- |
-| IgnoreInvalidFlexRatio | True | Some types of firmware (such as APTIO IV) may contain invalid values in the MSR_FLEX_RATIO
-(0x194) MSR register. These values may cause macOS boot failures on Intel platforms. |
+| IgnoreInvalidFlexRatio | True | Some types of firmware (such as APTIO IV) may contain invalid values in the MSR_FLEX_RATIO (0x194) MSR register. These values may cause macOS boot failures on Intel platforms. |
 | ReleaseUsbOwnership | True | Attemps to detach the USB controller ownership from the firmware driver. |
 | UnblockFsConnect | True | Fixes some types of firmware block partition handles by opening them in By Driver mode. Mainly needed for HP machines |
